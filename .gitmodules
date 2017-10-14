@@ -1,0 +1,3 @@
+[submodule "CometVisu"]
+	path = CometVisu
+	url = https://github.com/CometVisu/CometVisu.git
