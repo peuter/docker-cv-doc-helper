@@ -34,4 +34,4 @@ ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 
 # goto linked external cv dir
 WORKDIR /home/cometvisu/
-CMD ./cv doc $OPTIONS
+CMD $COMMAND
