@@ -4,8 +4,8 @@ Docker Image for CometVisu documentation
 This docker image provides everything needed to generate the HTML docemantation
 of the CometVisu
 
-Prerequisites
--------------
+Prerequisites (for running the container locally)
+-------------------------------------------------
 
 Please make sure that you set the environment variable `COMETVISU_PATH`
 which points to a local git clone of the CometVisu repository.
