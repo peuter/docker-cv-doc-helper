@@ -10,4 +10,4 @@ if [[ -z "$COMETVISU_PATH" ]]; then
     exit 0
 fi
 export COMMAND=$@
-docker run --privileged --net=host -it -v "$COMETVISU_PATH":"$COMETVISU_PATH" -v /dev/shm:/dev/shm --name cv_doc --workdir "$COMETVISU_PATH" -e COMMAND cv-doc-helper
+docker run --privileged --net=host -it -v "$COMETVISU_PATH":"$COMETVISU_PATH" -v /dev/shm:/dev/shm --name cv_doc --workdir "$COMETVISU_PATH" -e COMMAND cv-dev-helper

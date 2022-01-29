@@ -1,4 +1,4 @@
-FROM python:2-stretch
+FROM python:3.8-buster
 
 MAINTAINER Tobias Bräutigam
 
